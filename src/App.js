@@ -1,10 +1,25 @@
 import "./App.css";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Feature from "./components/Feature";
+import Feedback from "./components/Feedback";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Support from "./components/Support";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <Navbar />
+      <Home />
+      <About />
+      <Support />
+      <Feature />
+      <Feedback />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
